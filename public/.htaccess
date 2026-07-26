@@ -1,0 +1,7 @@
+Options -Indexes
+ServerSignature Off
+RewriteEngine On
+<FilesMatch "\.(env|ini|log|sql|bak|conf)$">
+ Require all denied
+</FilesMatch>
+
